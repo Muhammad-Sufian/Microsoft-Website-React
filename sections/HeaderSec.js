@@ -31,10 +31,12 @@ class HeaderSec extends React.Component {
         <div id="abc" className="sideBarMenuClass" style={{width:this.state.sideBarwid, overflowX:'hidden'}}>
         {/*<div id="abc" className="sideBarMenuClass" style={{width:"10px"}}>*/}
             <button id="123" onClick={closeSideBarFunction} style={{color: 'white', padding: "6px 20px", backgroundColor: '#505050', position: 'absolute', top: '5px', right: '5px', cursor:'pointer'}}>X</button>
-            <a href="default">Home</a>
-            <a href="news.asp">News</a>
-            <a href="contact.asp">Contact</a>
-            <a href="about.asp">About</a>
+            <a href="#">Office</a>
+            <a href="#">Windows</a>
+            <a href="#">Surface</a>
+            <a href="#">Xbox</a>
+            <a href="#">Deals</a>
+            <a href="#">Support</a>
 	    </div>
       </div>
     );
