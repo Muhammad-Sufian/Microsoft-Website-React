@@ -1,0 +1,447 @@
+/*Header*/
+.HeaderSec {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+
+.mainnav{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-left: 5px;
+
+}
+
+.mainnavItems{
+  margin-left: 15px;
+  margin-top:5px;
+  font-size: small;
+  color: black;
+  text-decoration: none;
+}
+
+.SideNav{
+  position: absolute;
+  right: 40px;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(224, 216, 216);
+  border: none;
+  display:none;
+
+
+}
+
+.SideNav:hover{
+  position: absolute;
+  right: 40px;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(160, 160, 160);
+}
+
+.sideBarMenuClass{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  
+  display: flex;
+  flex-direction: column;
+
+  z-index: 1;
+  height: 100%;
+  width: 500px;
+  transition: 1s;
+
+  background-color: rgb(208, 211, 208);
+  opacity: 1;
+
+}
+
+.sideBarMenuClass > a{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  border-bottom:  solid rgb(124, 123, 123);
+  position:relative;
+  top: 50px;
+  
+  
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.sideBarMenuClass a:hover {
+  color: black;
+  background-color: rgb(139, 148, 148);
+  font-size: 25px;
+  text-decoration: none;
+  border-bottom:  solid rgb(104, 103, 103);
+}
+
+/*Body*/
+.BodySec {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.Section1 {
+  flex: 2;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Sec1-Div1 {
+  flex-wrap: wrap;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Sec1-Div1-childnode {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: white;
+  background: url("https://i.ibb.co/zGSDGCL/slide1.png") no-repeat center
+    center/cover;
+  height: 400px;
+}
+
+.Sec1-Div1-text {
+  /*text-align: center;
+  position:relative;
+  font-size: 20px;
+  top: 200px;*/
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Sec1-Div1-bttn {
+  /*text-align: center;
+  position:relative;
+  top: 200px;*/
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-bottom: 70px;
+}
+
+#Sec1Bttn {
+  background-color: rgb(32, 30, 30);
+  color: white;
+  font-weight: 900;
+  padding: 10px 20px;
+  border: none;
+}
+
+#Sec1Bttn:hover {
+  background-color: rgb(53, 48, 48);
+  color: white;
+  font-weight: 900;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.Sec1-Div2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Sec1-Div2-Subdiv1 {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  min-width: 200px;
+  flex: 1;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Section2 {
+  flex: 2;
+  background-color: white;
+
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Sec2-Div1 {
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.Sec2-Div1-childnode {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  background-color: white;
+  background: url("https://i.ibb.co/tBJGPD9/xbox.png") no-repeat center
+    center/cover;
+  height: 400px;
+  padding-left: 30px;
+}
+
+.Sec2-Div1-text {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  max-width: 350px;
+}
+
+.Sec2-Div1-bttn {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-bottom: 120px;
+}
+
+#Sec2Bttn {
+  background-color: rgb(32, 30, 30);
+  color: white;
+  font-weight: 900;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#Sec2Bttn:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+  font-weight: 900;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.Section3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.Sec3-Div1 {
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.Sec3-Div1-childnode {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  color: white;
+  background-color: white;
+  background: url("https://i.ibb.co/72cgtsz/carbon.jpg") no-repeat center
+    center/cover;
+  height: 400px;
+  padding-left: 30px;
+}
+
+.Sec3-Div1-text {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  max-width: 350px;
+}
+
+.Sec3-Div1-bttn {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-bottom: 120px;
+}
+
+#Sec3Bttn {
+  background-color: rgb(32, 30, 30);
+  color: black;
+  background-color: white;
+  font-weight: 900;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#Sec3Bttn:hover {
+  background-color: rgb(32, 30, 30);
+  color: black;
+  background-color: rgb(240, 229, 229);
+  font-weight: 900;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.Sec3-Div2 {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  background-color: white;
+}
+
+/*Footer*/
+
+.FooterSec {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  background-color: #f2f2f2;
+}
+
+.FooterDiv1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  background-color: #f2f2f2;
+}
+
+.FooterBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  width: calc(100% / 6);
+  min-width: 150px;
+
+  background-color: #f2f2f2;
+}
+
+.FooterBox > a {
+  font-size: small;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.FooterDiv2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.FooterDiv2 > a {
+  font-size: small;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+@media (min-width: 660px) and (max-width: 900px) {
+  .Sec1-Div2-Subdiv1 {
+    min-width: 280px;
+    max-width: 415px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 600px) {
+  .Sec1-Div2-Subdiv1 {
+    min-width: 220px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .Sec1-Div2-Subdiv1 {
+    min-width: 450px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 918px) {
+  .FooterBox {
+    min-width: 230px;
+    max-width: 400px;
+    width: calc(100%/3);
+  }
+}
+
+@media (max-width: 710px) {
+  .FooterBox {
+    width: calc(100%/2);
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 390px) {
+  .FooterBox {
+    width: 100%;
+  }
+}
+
+@media  (max-width: 600px) {
+  .mainnav{
+   
+    width:0px;
+    overflow-x: hidden;
+  }
+  .SideNav{
+    display: inline-block;
+  }
+}
+
